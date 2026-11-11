@@ -24,7 +24,7 @@
         "developerName": "DEVSENSE",
         "category": "Developer Tools",
         "capabilities": [
-          "Read", "MCP"
+          "Read"
         ],
         "websiteURL": "https://www.devsense.com/",
         "defaultPrompt": [
