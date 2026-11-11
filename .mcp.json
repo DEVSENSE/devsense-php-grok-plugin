@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "devsense-php": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "devsense-php-mcp",
+        "--transport",
+        "stdio",
+        "--root",
+        "."
+      ]
+    }
+  }
+}
