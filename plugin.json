@@ -14,5 +14,28 @@
     "language-server",
     "intellisense",
     "refactoring"
-  ]
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DEVSENSE PHP Tools",
+        "shortDescription": "Semantic PHP workspace intelligence",
+        "longDescription": "Understand and analyze PHP projects using DEVSENSE PHP Tools. Search symbols, find semantic usages, explore call hierarchies, inspect diagnostics, Composer dependencies, and PHP configuration through a local MCP server.",
+        "developerName": "DEVSENSE",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read", "MCP"
+        ],
+        "websiteURL": "https://www.devsense.com/",
+        "defaultPrompt": [
+          "Find all usages of this PHP method.",
+          "Analyze the impact of changing this PHP class.",
+          "Explain the call hierarchy of this PHP function."
+        ],
+        "composerIcon": "./assets/phptools-icon.png",
+        "logo": "./assets/phptools-icon.png",
+        "brandColor": "#000020"
+      }
+    }
+  }
 }
